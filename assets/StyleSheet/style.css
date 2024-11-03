@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --title-color: #133E87;
+    --SubTitle-color: #608BC1;
+    --caption-color: #CBDCEB;
+    --extra-color: #F3F3E0;
+}
+
+.space-between {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.d-center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+body {
+    font-family: "poppins", serif;
+}
+
+p {
+    margin: 0;
+}
+
+a:hover {
+    transition: all 0.3s;
+    color: #608BC1 !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.Chapter-title h2 {
+    color: var(--title-color);
+}
+
+.Chapter-title h2 span {
+    font-size: 18px;
+    color: var(--SubTitle-color);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================================= */
+
+.nav {
+    background-color: white;
+}
+
+.nav-logo {
+    height: 87px;
+}
+
+.nav-logo img {
+    height: 85px;
+}
+
+
+
+/* ================================= */
+.Hero-section {
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Images/Hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-caption {
+    background-color: #133e87f6;
+    color: var(--extra-color);
+    padding: 4rem 5rem;
+    border-radius: 50px;
+}
+
+.hero-caption h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: start;
+    font-family: auto;
+}
+
+.hero-caption h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: none;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    text-align: start;
+}
+
+.hero-caption h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: auto;
+}
+
+.hero-caption p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+/* ======================= */
+.parts {
+    padding-top: 100px;
+    margin-bottom: 8rem;
+}
+
+.parts-caption h2 {
+    margin-bottom: 35px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+.parts-caption h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 0;
+}
+
+.parts-caption h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ================================= */
+
+.chapter-text h3 i,
+.card-text h2 i {
+    margin-right: 14px;
+}
+
+.chapter-caption>.row>.col-6{
+    display: flex;
+    align-items: center;
+}
+
+.chapter-text h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+}
+
+.chapter-2--information {
+    padding: 0 3rem;
+    background-color: var(--title-color);
+}
+
+.card-text p {
+    text-align: justify;
+}
+
+.chapter-2--information {
+    background-color: var(--title-color);
+}
+
+.chapter-2--background {
+    background-color: var(--SubTitle-color);
+    height: 100%;
+    padding: 2rem 5rem;
+    border-radius: 30px;
+    box-shadow: rgb(37 108 183) 0px 0px 20px;
+}
+
+.card-text h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--extra-color);
+}
+
+.card-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: var(--extra-color);
+}
+
+.card-image img {
+    border-radius: 30px
+}
+
+
+/* ========================== */
+.Chapter-2 {
+    margin: 8rem 0;
+}
+
+.chapter-3-caption p {
+    padding-left: 15px;
+    margin: 15px 0 25px 0;
+    position: relative;
+}
+
+.chapter-3-caption p::after,
+.chapter-3-caption p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #133E87;
+}
+
+.chapter-3-caption p::before {
+    width: 15px;
+    height: 15px;
+    top: -13px;
+    border: 2px solid var(--title-color);
+    background-color: transparent;
+    border-radius: 50%;
+    left: -6px;
+}
+
+/* ========================================== */
+.chapter-4 {
+    margin-top: 08rem;
+    margin-bottom: 08rem;
+}
+
+.chapter-4--text {
+    background-color: var(--title-color);
+    color: white;
+}
+
+.single-slide {
+    padding: 27px 40px;
+    height: 100%;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+/* ========================================== */
+/* last section */
+.referance-btn button {
+    width: 250px;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    font-size: 19px;
+    background-color: rgb(19, 111, 254, 1);
+    color: #ffffff;
+}
+
+
+.referance-btn:hover button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(19, 111, 254, 1);
+    transition: 0.3s all ease-out;
+}
+
+.all-links {
+    margin-top: 60px;
+}
+
+.all-links ul li {
+    padding-left: 20px;
+}
+
+.all-links ul {
+    text-align: justify;
+    border-left: 2px solid var(--title-color);
+    position: relative;
+}
+
+.all-links ul::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--title-color);
+    left: -8px;
+    top: -14px;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+/* note */
+
+.note p {
+    text-align: center;
+}
+
+.referance-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footer-info p {
+    text-align: justify;
+}
+
+.linKs li a {
+    color: black;
+}

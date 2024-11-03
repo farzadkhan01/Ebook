@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1024px) {
+    .chapter-2--background {
+        padding: 3rem 3rem;
+    }
+
+    .nav-logo {
+        width: 100%;
+        padding: 0 30px 0 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text-img {
+        width: 100% !important;
+    }
+
+    .hero-image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Hero-section {
+        height: 27rem;
+    }
+
+    .hero-caption h2 {
+        margin-bottom: 20px;
+    }
+
+    .hero-caption {
+        padding: 2rem 2rem;
+    }
+
+    .parts {
+        padding-top: 60px;
+        margin-bottom: 6rem;
+    }
+
+    .Chapter-2 {
+        margin: 1rem 0;
+    }
+
+    .Chapter-3 {
+        margin-top: 4rem;
+    }
+
+    .chapter-4 {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .chapter-2--information {
+        padding: 0 0rem;
+}
+
+@media only screen and (max-width: 425px) {
+
+
+    .special.show {
+        border-radius: 40px !important;
+    }
+
+    .hero-caption {
+        flex-direction: column !important;
+    }
+
+    .Hero-section {
+        height: 32rem;
+    }
+
+    .hero-caption h1,
+    .hero-caption h3 {
+        font-size: 24px;
+    }
+
+    .hero-caption h2,
+    .hero-caption h3 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .chapter-2--background {
+        padding: 2rem 1rem;
+    }
+
+    .single-slide {
+        padding: 9px 20px;
+        height: 100%;
+    }
+
+    .all-links>.row>.col-12>ul>li>a{
+        font-size: 10px;
+    }
+}
